@@ -1,0 +1,20 @@
+No ficheiro casos.txt ondem constam os casos de teste a serem executados.
+casos.txt
+1. n1 r1 resultado_esperado2
+2. n2 r2 1resultado_esperado2
+...
+
+Podes alterar pelo menos uns dos dados em cada linha para testar.
+
+ Compilar
+  gcc -Wall -o pteste pteste.c -lpthread  - 'Comando para compilar'
+ Executar
+  ./pteste <n_tarefas> <casos.txt>
+  ./pteste 15 casos.txt
+
+Att: podes variar o numero de tarefas a serem executados, quanto mais tarefas
+mais rápido os casos serão testados.
+
+
+
+
